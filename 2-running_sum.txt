@@ -1,5 +1,7 @@
-Read x
-Set sum to 0;
-While(x >= 0)
- Set sum to x + sum
- Read x
+Read number
+
+Set sum_running to 0;
+
+While(number >= 0)
+ Set sum_running to number + sum_running
+ Read number
