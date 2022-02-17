@@ -1,13 +1,5 @@
-function RUNNING_SUM()
-
-start
-	result = 0
-	loop = True
-	while loop
-	      Read number;
-	      if number < 0
-	      	 loop = false
-	      result = result + number
-	      Write number
-
-end
+Read x
+Set sum to 0;
+While(x >= 0)
+ Set sum to x + sum
+ Read x
