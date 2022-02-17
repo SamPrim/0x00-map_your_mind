@@ -1,0 +1,13 @@
+function RUNNING_SUM()
+
+start
+	result = 0
+	loop = True
+	while loop
+	      Read number;
+	      if number < 0
+	      	 loop = false
+	      result = result + number
+	      Write number
+
+end
