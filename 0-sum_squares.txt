@@ -1,0 +1,11 @@
+function SUM_SQUARE(Argument a, Argument b) return sum of square a and b
+
+start
+
+  read : a, b;
+  
+  result = a*a + b*b;
+  
+  return result
+
+end
