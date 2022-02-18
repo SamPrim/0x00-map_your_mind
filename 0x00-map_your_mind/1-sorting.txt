@@ -1,27 +1,19 @@
-function SORTIN_NUMBER()
+Read num1, num2, num3
 
-start
-
-  Read a, b, c;
-
-  if a > b and a < c
-    write a
-    if b > c
-      write b
-    if c > b
-      write c
-  else if b > a and b >c
-    write b
-    if a > c
-      write a
-    if c > a
-      write c
-  if c > a and c > b
-    write c
-    if a > b
-      write a
-    if b > a
-      write b
-
-end
-    
+If (num1 < num2 < num3)
+ Write num1 , num2, num3
+ 
+else If (num1 < num3 < num2)
+ Write num1 , num2, num3
+ 
+else If (num2 < num1 < num3)
+ Write num2 , num1, num3
+ 
+else If (num2 < num3 < num1)
+ Write num2 , num3, num1
+ 
+else If (num3 < num1 < num2)
+ Write num3 , num1, num2
+ 
+else If (num3 < num2< num1)
+ Write num3 , num2, num1

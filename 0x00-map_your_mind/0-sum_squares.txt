@@ -1,11 +1,5 @@
-function SUM_SQUARE(Argument a, Argument b) return sum of square a and b
+Read : a, b;
 
-start
-
-  read : a, b;
+Set result = a*a + b*b;
   
-  result = a*a + b*b;
-  
-  return result
-
-end
+Write result
